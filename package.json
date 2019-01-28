@@ -1,0 +1,20 @@
+{
+  "name": "templ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.18",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "ts-node ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+touc

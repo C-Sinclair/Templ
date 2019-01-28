@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "es2016",                    
+      "module": "amd",                    
+      "allowJs": true,  
+      "rootDir": "./src",                   
+      "outFile": "./dist/app.js",                       
+      "strict": true,                           
+      "esModuleInterop": true,
+      "jsx": "react",
+      "baseUrl": ".",
+      "paths": {
+        "*": [
+          "node_modules/*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "./dist"
+    ]
+  }
